@@ -1,28 +1,67 @@
 /* Body */
 body {
-    background-color:0000ff;
-
+    background-color: #FFFFFF;
     font-family: Roboto, sans-serif;
+    
+    
 }
 
 /* header шапка сайта */
 
-.page-header {
+/* .page-header {
 
 }
 
 .contacts-header {
 
+} */
+
+.contacts-link {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #2196F3;
+        list-style: none;
+        text-decoration: none;
+
 }
 
-.contacts-item {
-
+.contacts-tel {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #2196F3;
+        list-style: none;
+        text-decoration: none;
 }
 
 
 /* nav навигация сайта & logo логотип */
 
-.logo {
+.logo-link {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.logo-accent {
+    color: color: #212121;
+}
+.nav-site {
+text-decoration: none;
+}
+/* .logo {
 
 }
 .site-nav {
@@ -31,39 +70,97 @@ body {
 
 .nav-list {
 
+} */
+
+.nav-item-studio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    list-style: none;
 }
-
 .nav-item {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    list-style: none;
 }
 
 /* Main */
 /* Hero */
 .hero {
+    background: #2F303A;
 
+} 
+.btn {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+    
+        color: #FFFFFF;
+    
+        background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
 }
 
 .hero-text {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:#FFFFFF
 
 }
+    
 
 /* Наши преимущества advantage */
 
 /* advantage */
-.advantage {
+/* .advantage {
 
-}
+} */
 
 .advantage-list {
-
+list-style: none;
 }
 
 .advantage-title {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
 }
 
 .advantage-text {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 /* Чем мы занимаемся benefits */
@@ -72,21 +169,29 @@ body {
 }
 
 .benefits-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 
+    color: #212121;
 }
 
 .benefits-list {
-
+list-style: none;
 }
 
-.benefits-item {
+/* .benefits-item {
 
-}
+} */
 
 /* Наша команда team */
 
 .team {
-
+background-color: #F5F4FA;
 }
 
 .team-text {
@@ -94,7 +199,7 @@ body {
 }
 
 .team-list {
-
+list-style: none;
 }
 
 .team-photo {
@@ -106,23 +211,76 @@ body {
 }
 
 .team-name {
-
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: #212121;
 }
 
 .team-post {
-
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 /* Футер */
 
 .footer {
-
+background-color: #2F303A;
 }
 
 .footer-list {
-
+list-style: none;
 }
 
-.footer-item {
+/* .footer-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+} */
 
+.link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer-tel {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+}
+
+.footer-mail {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        text-decoration: none;
 }
