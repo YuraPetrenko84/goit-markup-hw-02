@@ -1,6 +1,5 @@
 /* Body */
-body 
-{
+body {
     background-color:0000ff;
 
     font-family: Roboto, sans-serif;
@@ -8,139 +7,122 @@ body
 
 /* header шапка сайта */
 
-.page-header 
-{
+.page-header {
 
 }
 
-.contacts-header 
-{
+.contacts-header {
 
 }
 
-.contacts-item 
-{
+.contacts-item {
 
 }
 
 
 /* nav навигация сайта & logo логотип */
 
-.logo 
-{
+.logo {
 
 }
-.site-nav 
-{
+.site-nav {
 
 }
 
-.nav-list 
-{
+.nav-list {
 
 }
 
-.nav-item 
-{
+.nav-item {
 
 }
 
 /* Main */
 /* Hero */
-.hero 
-{
+.hero {
 
 }
 
-.hero-text 
-{
+.hero-text {
 
 }
 
 /* Наши преимущества advantage */
 
 /* advantage */
-.advantage 
-{
+.advantage {
 
 }
 
-.advantage-list
-{
+.advantage-list {
 
 }
 
-.advantage-title 
-{
+.advantage-title {
 
 }
 
-.advantage-text 
-{
+.advantage-text {
 
 }
 
 /* Чем мы занимаемся benefits */
-.benefits 
-{
+.benefits {
 
 }
 
-.benefits-text 
-{
+.benefits-text {
 
 }
 
-.benefits-list 
-{
+.benefits-list {
 
 }
 
-.benefits-item 
-{
+.benefits-item {
 
 }
 
 /* Наша команда team */
 
-.team 
-{
+.team {
 
 }
 
-.team-text 
-{
+.team-text {
 
 }
 
-.team-list 
-{
+.team-list {
 
 }
 
-.team-photo 
-{
+.team-photo {
 
 }
 
-.team-items 
-{
+.team-items {
 
 }
 
-.team-name 
-{
+.team-name {
 
 }
 
-.team-post 
-{
+.team-post {
 
 }
 
 /* Футер */
 
-.footer 
-{
+.footer {
+
+}
+
+.footer-list {
+
+}
+
+.footer-item {
 
 }
