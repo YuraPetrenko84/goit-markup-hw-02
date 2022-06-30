@@ -391,6 +391,9 @@ list-style: none;
     color: #212121;
 }
 
+.title {
+    display: none;
+}
 /* Портфолио карточки */
 /* .portfolio-cards {
 
