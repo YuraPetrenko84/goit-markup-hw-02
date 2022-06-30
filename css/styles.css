@@ -5,7 +5,9 @@ body {
     
     
 }
-
+a {
+    text-decoration: none;
+}
 /* header шапка сайта */
 
 /* .page-header {
@@ -304,6 +306,9 @@ list-style: none;
 
 } */
 /* Портфолио кнопки */
+.portfolio-list {
+    list-style: none;
+}
 .portfolio-item-all {
     font-family: 'Roboto';
     font-style: normal;
