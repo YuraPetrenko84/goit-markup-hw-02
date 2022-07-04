@@ -21,7 +21,7 @@ body {
 }
 
 /* reset styles */
-
+.link-footer, .contacts-link,
 .link,
 .link-cards {
     text-decoration: none;
@@ -76,7 +76,13 @@ body {
     letter-spacing: 0.02em;
     color: var(--logo-blue-txt-cl)
 }
-
+.contacts-link-portfolio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-txt-cl)
+}
 .contacts-link:hover,
 .contacts-link:focus {
     color: var(--logo-blue-txt-cl);
@@ -255,20 +261,38 @@ body {
 
 /* Портфолио кнопки */
 /* .visually-hidden, */
-.portfolio-item-web,
-.portfolio-item-app,
-.portfolio-item-design,
-.portfolio-item-marketed {
+
+
+
+.portfolio-btn{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-txt-cl) background-color:#F5F4FA;
+    border: none;
+    border-radius: 4px;
+    background: #EEEEEE;
 }
+.portfolio-list,
+ .portfolio-btn, {
+    color: var(--main-txt-cl);
+ }
+.current {
+    color:#FFFFFF;
+    background: #2196F3;
+    border-radius: 4px;
+    border: none;
+}
+ 
+    
+        
+        
 
-.portfolio-item-all:hover,
-.portfolio-item-all:focus {
-    color: var(--logo-blue-txt-cl);
+ .portfolio-btn:hover,
+.portfolio-btn:focus {
+    background: var(--logo-blue-txt-cl);
+
 }
 
 .portfolio-item-all {
@@ -287,7 +311,7 @@ body {
 .portfolio-cards-title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 2px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-txt-cl)
 }
